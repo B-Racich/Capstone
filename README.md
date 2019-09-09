@@ -1,2 +1,1 @@
-# Public
-Public Work and Samples
+# This repository is to showcase some of my work
