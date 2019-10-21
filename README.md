@@ -1,1 +1,1 @@
-# This repository is to showcase some of my work
+# This repository shows some of the work my team and I accomplished for our Capstone 2018/2019 project.
