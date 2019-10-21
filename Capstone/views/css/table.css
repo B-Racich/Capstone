@@ -1,0 +1,55 @@
+table {
+    width: 100%;
+}
+
+table.format-table th, table.format-table td {
+    text-align: left;
+}
+
+thead th, .transcript-table tr:first-child{
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+ thead tr , .transcript-table tr:first-child{
+	background: rgba(0%, 66%, 88%,0.1) !important;
+}
+
+table tr:nth-child(n) {
+    background: rgba(0%, 66%, 88%,0.04);
+}
+table tr:nth-child(2n) {
+    background: #fff;
+    }
+
+.lab-info-table thead th, .lab-info-table tbody td {
+    padding: 0.5em 1em;
+}
+
+table.format-table.hire-table td {
+    padding: 2em 2em;
+}
+
+
+table.hire-table thead.headings{
+
+	font-size:1.2rem;
+}
+thead.headings th , .transcript-table tr:first-child td{
+    padding: 1em;
+}
+
+.restriction-wrapper #input-wrapper {
+    text-align: left;
+    padding: 1em;
+}
+
+div.c-r-wrapper {
+    border: solid 1px;
+    padding: 4em;
+    border-radius: 4px;
+}
+
+th#courseTitle {
+    font-size: 32px;
+}

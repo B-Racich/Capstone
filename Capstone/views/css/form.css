@@ -1,0 +1,395 @@
+/*GENERAL FORM*/
+.form-title{
+  padding-bottom: 1em;
+  background: #041e41;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-title *{
+  color:#fff;
+}
+
+form input{
+    padding: 1em;
+    border-radius:4px;
+    border: 0px;
+    background: rgba(0,0,0,.04);
+}
+
+.select-wrapper {
+   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 93% 0; */
+   height: 29px;
+   overflow: hidden;
+   width:160px;
+/*    background-color: #3b8ec2; */
+    border: 1px solid #041e41;
+   border-radius:4px;
+
+}
+.select-wrapper select {
+   background: transparent;
+   color:#041e41;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+
+}
+
+form .flex-item input[type="text"], form .flex-item input[type="number"], form .flex-item input[type="password"], form .flex-item input[type="email"]{
+  width:80%;
+}
+
+form#create-account input{
+  width:80% !important;
+}
+.form-wrapper {
+    /*padding-bottom: 3em;*/
+    border-radius: 4px;
+    box-shadow: 3px 3px 11px rgba(0,0,0,0.3);
+      max-width: 800px;
+    margin: auto;
+}
+
+.form-body {
+    padding: 2em 2em;
+    background: #fff;
+    border-radius: 4px;
+}
+.form-body .row {
+    padding: 0.5em 0;
+}
+
+/*APPLICATION FORM*/
+#application{
+
+/* background: RGBa(46, 182, 196,0.12); */
+}
+.privacynotif{
+  background-color: #041e41;
+  margin: auto;
+  padding: 1em;
+margin-top: 3em;
+}
+
+.privacynotif *{
+  font-size: 1em;
+  COLOR:#FFF;
+}
+
+.application-wrapper{
+  max-width: 800px;
+  margin: auto;
+}
+
+p#tip {
+    margin: 0;
+    margin-left: 1em;
+    margin-top: 0.1em;
+}
+
+.button.help {
+    /* border-radius: 50%; */
+    padding: 0.3em 0.7em;
+    border: 1px solid #041E41;
+    color: #fff;
+    background: #041E41;
+    font-size: 10px;
+}
+
+.login_wrapper input{
+  /*width:60% !important;*/
+}
+
+
+.select-wrapper {
+   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 93% 0; */
+   height: 29px;
+   overflow: hidden;
+   width:160px;
+/*    background-color: #3b8ec2; */
+    border: 1px solid #041e41;
+   border-radius:4px;
+
+}
+.select-wrapper select {
+   background: transparent;
+   color:#041e41;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+
+}
+
+form .flex-item input[type="text"], form .flex-item input[type="number"], form .flex-item input[type="password"], form .flex-item input[type="email"]{
+	width:80%;
+}
+.form-wrapper {
+    /*padding-bottom: 3em;*/
+    border-radius: 4px;
+    box-shadow: 3px 3px 11px rgba(0,0,0,0.3);
+      max-width: 800px;
+    margin: auto;
+}
+
+.form-body {
+    padding: 2em 2em;
+    background: #fff;
+    border-radius: 4px;
+}
+.privacynotif{
+  background-color: #041e41;
+  margin: auto;
+	padding: 1em;
+margin-top: 3em;
+}
+
+.privacynotif *{
+	font-size: 1em;
+	COLOR:#FFF;
+}
+
+.application-wrapper{
+	max-width: 800px;
+	margin: auto;
+}
+
+p#tip {
+    margin: 0;
+    margin-left: 1em;
+    margin-top: 0.1em;
+}
+
+#course-upload {
+  margin-top: 5em;
+}
+
+#course-upload .form-body {
+  text-align: center;
+}
+
+#course-upload input[type="submit"] {
+  margin: 1em;
+}
+
+#course-upload form {
+  text-align: center;
+}
+
+
+.rest-list {
+  border: solid 1px;
+  border-radius: 4px;
+  padding: 10em 4em;
+  text-align: center;
+}
+
+.row.row-center {
+  text-align: center;
+}
+
+.row.row-center button {
+  margin: auto;
+}
+
+button#remove-prevTA {
+  padding: 0 !important;
+  padding: 1em !important;
+}
+
+tr#prevTA {
+  text-align: center;
+  margin: 1em;
+}
+
+button#remove-minGrade {
+  padding: 10px !important;
+  font-size: 10;
+  width: 25%;
+  background: #6283af;
+}
+
+tr#minGrade {
+  text-align: center;
+  /* padding: 1em !important; */
+}
+
+
+
+.modal,
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+  overflow: auto;
+}
+
+.modal-box {
+  position: relative;
+  width: 80%;
+  max-width: 920px;
+  margin: 100px auto;
+  animation-name: modalbox;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0,0,.3,1.6);
+}
+
+.modal-header {
+  padding: 20px 40px;
+  background-color: #041e41;
+  color: #ffffff;
+}
+
+.modal-body {
+  background: #ECEFF1;
+  padding: 60px 40px;
+}
+
+/* Close Button */
+.close-modal {
+  text-align: right;
+  cursor: pointer;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+
+
+p {
+  line-height: 1.4em;
+}
+
+
+.modal,
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+  overflow: auto;
+}
+
+.modal-box {
+  position: relative;
+  width: 80%;
+  max-width: 920px;
+  margin: 100px auto;
+  animation-name: modalbox;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0,0,.3,1.6);
+}
+
+.modal-header {
+  padding: 20px 40px;
+  background-color: #041e41;
+  color: #ffffff;
+}
+
+.modal-body {
+  background: #ECEFF1;
+  padding: 60px 40px;
+}
+
+/* Close Button */
+.close-modal {
+  text-align: right;
+  cursor: pointer;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+
+
+
+.modal-trigger {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: ease .2s;
+}
+

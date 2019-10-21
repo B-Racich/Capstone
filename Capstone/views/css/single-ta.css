@@ -1,0 +1,53 @@
+
+
+.single-ta-wrapper .col-6, .col-8{
+	padding-right: 5em;
+}
+
+div.inner_row.col-8{
+	/*max-width: 725px;*/
+
+}
+
+.row.hour-assign-row {
+	padding-top: 2em;
+}
+
+.hour-assign-row .square{
+	display: inline-block;
+	padding: 0 1.5em;
+}
+
+.row.hour-assign-row .inner_row >.flex-item{
+	flex:1 1 25%;
+}
+
+
+
+div#inital-print .button {
+    display: block;
+    margin: 3em 1.5em;
+}
+
+.initials.circle.align-center h4 {}
+
+#initial-print .initials {
+    display: inline-block;
+}
+
+div#inital-print .initials {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+div#inital-print .initials h4 {
+    padding: 1em;
+}
+
+div#prev_grades ul li {
+    padding: 0.5em 0 2em 1em;
+}
+
+div#prev_grades ul li .right-float{
+	padding-right: 2em;
+}

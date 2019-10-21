@@ -1,0 +1,48 @@
+
+#main_header{
+  background-color: rgba(4, 30, 65,1);
+  /* So when site is scaled logo is not touching sides */
+  z-index: 999;
+  position: static;
+  left: 0;
+  top:0;
+  width: 100%;
+}
+
+
+ul.menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+
+ul.menu li.menu-item{
+  display: inline-block;
+  padding: 1em 0;
+  position: relative;
+  color: #fff;
+  transition: all .75s;
+  
+}
+
+ul.menu li.menu-item a{
+  text-decoration: none;
+  padding: 1em;
+  color: #fff;
+  }
+
+ul.menu > li.menu-item:hover > a{
+	color:#fff;
+}
+
+ul.menu > li.menu-item:hover{
+	background:#01A8E1;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
